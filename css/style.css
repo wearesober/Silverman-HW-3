@@ -1,0 +1,164 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+	background-color: #f0efef;
+	font-family: 'Open Sans';
+	width: 65%;
+	margin: auto;
+	}
+
+span {
+	float: left;
+    font-size: 400%;
+    line-height: 80%;
+    color: #606161;
+}
+header {
+	background-color: #033048;
+	color: white;
+	display: inline-block;
+	width: 100%;
+}
+
+.topLogo {
+	font-weight: 600;
+	font-size: 24px;
+	padding: 10px;
+	float: left;
+	color: white;	
+}
+
+a {
+	color: #033048;
+	text-decoration: none;
+}
+
+.topNav li {
+	float: right;
+	}
+
+.nav {
+	color: #f9e42e;
+	float: left;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+main {
+	float: left;
+	width: 700px;
+	margin-right: 20px;
+	}
+
+.postTitles {
+	font-weight: 600;
+	font-size: 40px;
+	color: #033048;
+	margin-bottom: 25px;
+
+	}
+
+.body {
+	font-weight: 300;
+	font-size: 24px;
+	padding: 20px;
+}
+
+
+.headers {
+	font-weight: 800;
+	font-size: 32px;
+	color: #033048;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.readMore {
+	font-weight: 600;
+	font-size: 24px;
+	color: #033048;
+	float: right;
+	margin-top: 20px;
+}
+
+.readMore:after {
+	content: ">";
+}
+
+.aboutText {
+	font-weight: 300;
+	font-size: 22px;
+	color: #033048	
+}
+
+.learnMore {
+	font-weight: 600;
+	font-size: 24px;
+	color: #033048;
+	text-decoration: none;
+}
+
+a:hover {
+	content: " ";
+	color: red;
+}
+
+.ad {
+	padding: 45px;
+	clear: both;
+}
+ 
+aside {
+	width: 240px;
+	float: right;
+	margin-left: 20px;
+	
+}
+
+.signUp {
+  background-color: #f9e42e;
+  padding: 30px 2px 2px 2px;
+  margin: auto;
+  clear: both;
+  font-size: 35px;
+ }
+
+.signUpButton {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  width: 120px;
+  height: 25px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 25px;
+  background-color: #033048;
+  color: #f9e42e;
+  clear: both;
+}
+
+.bottomLogo {
+font-weight: 800;
+font-size: 24px;
+color: #f9e42e;
+margin-bottom: 45px;
+padding: 10px;
+text-align: center;
+}
+
+footer {
+background: #121212;
+padding: 10px;
+color: white;
+text-align: center;
+clear: both;
+}
+
+.copyRClear {
+	margin-top: 50px;
+}
+
